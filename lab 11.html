@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #button{
+            color:saddlebrown 
+        }
+
+    </style>
+</head>
+<body>
+    <h2> HTML form </h2>
+    <form>
+        <table border="2" style="border-collapse: collapse; border-color:darkslateblue">
+            <tr>
+                <th><label> First Name</label></th>
+                <td><input type="text" name= "firstname" id="fnm" value="ADITYA"></td>
+            </tr>
+            <tr>
+                <th><label> Last Name </label></th>
+                <td><input type="text" name="lastname" id="lanm" 
+                    placeholder="Enter The Last Name Here"></td>
+            </tr>
+            <tr>
+                <th> Gender</th>
+                <td>
+                    <input type="radio" name="gender" value="male">Male &nbsp;&nbsp;
+                    <input type="radio" name="gender" value="female"Female> Female
+                </td>
+            </tr>
+            <tr>
+                <th>HOBBIES :</th>
+                <td>
+                    <input type="checkbox" name="chkMusic" value="Music">Music<br>
+                    <input type="checkbox" name="chkTravel" value="Travel">Travel<br>
+                    <input type="checkbox" name="chkSport" value="Sprot">Sport<br>
+                    <input type="checkbox" name="chkTreking" value="Treking">Treking<br>
+                    <input type="checkbox" name="chkWatching mobile" value="watching mobile">watching mobile</br>
+                
+                </td>
+            </tr>
+                <tr>
+                    <th>Qualifications</th>
+                    <td>
+                        <select name="education" id="qual">
+                            <option value="4th class">4th class</option>
+                            <option value="5th class">5th class</option>
+                            <option value="6th class">6th class</option>
+                            <option value="7th class">7th class</option>
+                            <option value="8th class">8th class</option>
+                            <option value="9th class ">9th class</option>
+                            <option value="SSC">SSC</option>
+                            <option value="HSC">HSC</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="Post Graduation">Post Graduation</option>
+                            <option value="non of the above ">non of the above</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>OTHER INFORMATION</th>
+                    <td>
+                       <textarea name="info" id="txtinfo"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"style="text-align:center";>
+                    <input type="Submit" value="Submit">
+                    <input type="Reset" value="Reset">
+                    </td>
+                    <button >Submit</button>
+                </tr>
+                
+        </table>
+    </form>
+</body>
+</html>
